@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game-style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>FINAL</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./assers/RMFC.png" alt="" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-1-name"></span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./assers/CDV.png" alt="" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-2-name"></span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()">
+            </button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div>
+    <!-- <div class="container">
+        <h1>SEMIFINAL 2</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./assers/RMFC.png" alt="" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-1-name"></span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./assers/VFC.png" alt="" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-2-name"></span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()">
+            </button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div>
+    <div class="container">
+        <h1>FINAL</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./assers/RMFC.png" alt="ABP" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-1-name"></span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./assers/CDV.png" alt="" class="profile-icon" height="150px" width="150px"/>
+                <span class="name" id="team-2-name"></span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                    <span class="dot" id="dot-id"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()">
+            </button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div> -->
+    <script src="./game.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: yellow;
+    /* font-size: 2em; */
+    font-weight: 500;   
+}
+nav{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    font-size: 1.5em;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(174, 228, 123);
+    font-style: italic;
+}
+.nav-link{
+    text-decoration: wavy;
+    cursor: pointer;
+}
+nav ul li{ 
+    margin: 0 20px; 
+}
+.logo-text{
+    font-size: 10px;
+    font-weight: 700;
+    color: aquamarine;
+}
+.logo-img{
+    width: 11em;
+    height: 9em;
+}
+.nav-link:hover{
+    color: indianred;
+}
+
+
+header div{
+    background: rgb(102, 39, 39);
+    font-size: 2em;
+    display: flex;
+    height: 450px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.team-img{
+    height: 5em;
+    weight: 5em;
+}
+
+*article{
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background: chartreuse;
+}
+#gameplay{
+    background: white;
+    align-content: center;
+}
+
+
+
+#teams{
+    background:  #9013fe;
+    color:white;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 121px 0 0 0;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vw;
+}
+header div p{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+
+#gameplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#teams div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#teams div article{
+    background: white;
+    color:black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-fix{
+    
+    width: 94%;
+    height: 90vh;
+    margin: 1%;
+    align-items: center;
+    padding: 1%;
+
+}
+ .qualifier{
+    width: 25%;
+    height: 70vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(247, 245, 245);
+    border-radius: 5px;
+
+}
+.semiFinal{
+    width: 25%;
+    height: 35vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 5px;
+}
+
+.final{
+    width: 25%;
+    height: 17vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 250, 249);
+    border-radius: 5px;
+}
+.set{
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+.card1{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    align-content: center;
+    background-color: white;
+}
+.card2{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    align-content: center;
+    background-color: white;
+}
+.card3{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    align-content: center;
+    background-color: white;
+}
+.card4{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    align-content: center;
+    background-color: white;
+}
+h3{
+    margin: 5vh auto auto auto;
+    border: 1px solid orangered;
+    border-radius: 70px;
+    background-color: orangered;
+    color: white;
+    transform: scale(1.00);
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#result{
+  border:none;
+  background-color: rgb(7, 131, 13);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.abp-img{
+    width: 50%;
+    margin-left: 10%; 
+}
+.cdv-img{
+    width: 35%;
+    margin-left: 25%;
+    align-items: center;
+}
+.fcb-img{
+    width: 45%;
+    margin-left: 15%;
+}
+.rb-img{
+    width: 50%;
+    margin-left: 20%;
+}
+.vfc-img{
+    width: 40%;
+    heigth: 25%;
+    margin-left: 15%;
+}
